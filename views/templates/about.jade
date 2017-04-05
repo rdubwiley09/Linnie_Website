@@ -3,9 +3,23 @@ block main
   .container(id="about")
     img(src="{{url_for('static',filename='images/Linnie_two.jpg')}}", alt="one", style="width: 100%")
   .row(class="platform")
-    h1(class="sub-header") Platform
-    h3 Transparent and Accessible Government
-    h3 Building a Sustainable Southfield
-    h3 Protecting and Investing in City Workers
+    .text
+      .col-xs-12
+        h1(class="sub-header") Platform
+        h3 Transparent and Accessible Government
+          ul
+            li All meetings that can be televised should be televised
+            li Building partnerships with local colleges and universities to modernize government
+            li Expand government services through the website
+        h3 Building a Sustainable Southfield
+          ul
+            li Protecting local parks and wetlands
+            li Updating and approving a modern master plan
+            li Attracting businesses and residents through sustainable growth
+        h3 Protecting and Investing in City Workers
+          ul
+            li Modernize city codes
+            li Invest in city workers through new technology and equipment
+            li Keep salaries competitive with surrounding areas
 
   
