@@ -84,22 +84,39 @@ nav ul li a:hover {
 #dropdown {
   display: none;
   list-style: none;
-  background-color: purple;
+  background-color: #2D0575;
   border-style: solid;
   border-color: black;
   position: fixed;
   vertical-align: middle;
-  text-align: left;
+  text-align: center;
   z-index: 2;
   left: 100%;
-  margin-left: -120px;
+  margin-left: -250px;
   top: 68px;
+  width: 300px;
 }
 
 #dropdown li {
   border-bottom-style: solid;
   padding-top: 5px;
   padding-bottom: 5px;
+  color: red;
+  width: 300px;
+  margin-left: -42px;
+}
+
+#dropdown li a {
+  font-size: 20px;
+  color: white;
+  width: 300px;
+  margin-left: -42px;
+  text-align: center;
+}
+
+#dropdown li a:hover {
+  color: OrangeRed;
+  opacity: 1.0;
 }
 
 #sign-up {
@@ -119,10 +136,11 @@ nav ul li a:hover {
   background-color: #2D0575;
   color: white;
   width: 105vw;
-  height: 60vh;
+  height: 1800px;
   border-style: solid;
   border-width: 5px;
   border-color: grey;
+  padding-right: 10px;
 }
 
 .text {
@@ -139,14 +157,21 @@ nav ul li a:hover {
 
 .sub-header {
   font-size: 60px;
-  padding-top: 50px;
+  padding-top: 20px;
   border-style: solid;
   border-width: 5px;
   border-color: #2D0575;
   border-bottom: solid #ff0000;
-  width: 600px;
-  margin: auto;
-  text-align: center
+  text-align: center;
+  padding-right: 10px;
+}
+
+.sub-header h3 {
+  padding-right: 10px;
+}
+
+.bullet {
+  padding-right: 25px;
 }
 
 .contact {
@@ -164,6 +189,13 @@ nav ul li a:hover {
   width: 600px;
   margin: auto;
   text-align: center
+}
+
+.bullets {
+  position: absolute;
+  width: 750px;
+  left: 50%;
+  margin-left: -375px;
 }
 
 

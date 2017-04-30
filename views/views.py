@@ -30,7 +30,3 @@ def about():
 @application.route("/contact")
 def contact():
     return render_template('/contact.jade')
-
-@application.route("/donate")
-def donate():
-    return render_template('/donate.jade')
