@@ -2,8 +2,6 @@ import random
 from flask import Flask, request, render_template, redirect, url_for, session
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-import smtplib
-from views.em import sendEmail
 import os
 import time
 from sqlalchemy import Column, Integer, String, DateTime
